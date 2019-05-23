@@ -98,7 +98,6 @@
                 }, 400);
             },
             drawSvg () {
-                if (isNaN(this.percentage)) return;
                 let box = document.getElementById(this.id);
                 // if (!box) return;
                 let boxW = box.offsetWidth;
@@ -107,6 +106,8 @@
                 let bool = /(%)$/i.test(this.percentage);
 
                 let per = bool ? parseFloat(this.percentage) / 100 : parseFloat(this.percentage);
+
+                if (isNaN(per)) return;
 
                 let smallW = Math.ceil(document.getElementById('metric').getComputedTextLength());
                 let svgPer = (per + smallW / boxW * (1 - per));

@@ -2,7 +2,7 @@
 
 > 陈兴林 454674774@qq.com
 
-## Build Setup
+## 下载
 
 ``` bash
 # install
