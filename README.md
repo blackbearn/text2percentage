@@ -52,4 +52,9 @@ Vue.use(text2pencentage);
 ></vue-text-pencentage>
 ```
 
+#### 效果图
+
 ![效果图](/src/assets/20190523001.png)
+
+
+##### 可以把文字按百分比缩放，有兴趣的小伙伴可以 start 一下，初次写组件。不足的地方，望指正，感谢您的支持。
