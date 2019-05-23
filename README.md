@@ -46,12 +46,9 @@ Vue.use(text2pencentage);
 
 ```html
 <vue-text-pencentage
-    height="400"
-    pencentage="0.5"
-    fill="#ff1234"
-    unit="M"
-    text="106.5"
-    unitColor="#ff3456"
+  text="106.5"
+  fill="#ff1234"
+  percentage="0.8"
 ></vue-text-pencentage>
 ```
 
