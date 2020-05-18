@@ -2,7 +2,7 @@
   "name": "text2pencentage",
   "description": "",
   "version": "1.0.4",
-  "author": "陈兴林 <chenxl@enlink.cn>",
+  "author": "陈兴林 <18118801790@163.com>",
   "license": "MIT",
   "private": false,
   "main": "dist/text2pencentage.min.js",
